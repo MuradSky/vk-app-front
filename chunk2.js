@@ -1,0 +1,1 @@
+import{az as n,a1 as a}from"./chunk3.js";const s=(t,c)=>{const e=t.__vccOpts||t;for(const[o,r]of c)e[o]=r;return e},_={};function p(t,c){return n(),a("div")}const f=s(_,[["render",p],["__scopeId","data-v-5d3c88b1"]]);export{f as default};
