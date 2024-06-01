@@ -7,11 +7,17 @@ export default {
         rollupOptions: {
             output: {
                 // dir: '~/plugin/assets/',
-                entryFileNames: 'choose-card-app.js',
-                assetFileNames: 'choose-card-app.css',
+                entryFileNames: 'csrf-app.js',
+                assetFileNames: 'csrf-app.css',
                 chunkFileNames: "chunk.js",
                 manualChunks: undefined,
             }
+        }
+    },
+    resolve: {
+        alias: {
+            "src": '/src/',
+            "components": '/src/components/'
         }
     }
 }
